@@ -82,3 +82,13 @@ let counter = 0;
         }
         counter = counter + 1;
     }
+
+for (let counter = 0; counter < tweets.length; counter = counter + 1) {
+    
+    let tweet = tweets[counter]
+
+        if(tweet['age'] <= 18 ) {
+            console.log(tweet['tweet'], tweet['username'], tweet['created_at'])
+        }
+
+}
